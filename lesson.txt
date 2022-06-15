@@ -1,0 +1,100 @@
+<!-- Hi I'm Jayjtech. In this course, I will explain what HTML is, what it does and what it is used for -->
+
+<!--
+
+WHAT IS HTML? 
+-- HTML: stands for HYPER TEXT MARKUP LANGUAGE 
+
+-- HYPER TEXT refers to the fact that HTML make it possible to click on links.
+-- MARKUP LANGUAGE means that HTML is something you use to markup normal english text on the browser.
+The entire WEB page uses HTML to tell the browser what to do with these text. 
+
+-- INDEX.HTML
+In every web application, we always start with index.html which is like an instruction manual for every website you load.
+
+WHY IS INDEX.html SO IMPORTANT?
+-- It serves as the default page for every web application.
+-- Every website must have an index.html file because index is the name that the browser can read by default.
+
+NOW, LET'S TALK ABOUT HTML TAGS
+-- An HTML tag is a tag name that is usually surrounded by a LESS THAN (<) and GREATER THAN (>) brackets
+        
+    Let's look at the examples of HTML tag
+
+-- <html></html>: This wraps around the whole HTML script.
+-- <head></head>: This tag take in-between it, the meta(hidden) datas that have to run before the page loads up.
+-- <title></title>: Is meant to be an accurate and concised description of a page's content.
+                    It is placed inside the <head> tag.
+-- <body></body>: This tag covers all what we want to display on the page. All of our content goes inside the BODY tag
+
+    ->The CONTAINER Elements
+-- <div></div>: This serves as a container
+-- <span></span>: This serves as a container
+   
+    ->The TEXT Elements
+    We have the <h> tags, which spans from level 1 - 6. As the level increases from 1-6, the font size reduces.
+    They are used for displaying PAGE TITLE. They are listed below:
+-- <h1></h1>
+-- <h1></h1>
+-- <h2></h2>
+-- <h3></h3>
+-- <h4></h4>
+-- <h5></h5>
+-- <h6></h6>
+
+-- <p></p>: Used for displaying TEXT PARAGRAPHS
+    
+    ->TAGS for LISTING items
+-- <ol></ol>: It is called the ORDERED list, It is also called the numbered list i.e. 
+              It displays by assiging every item in it a number in ascending order (1, 2, 3 ...).
+
+-- <ul></ul>: It is called the UNORDERED list. It assigns a BALL POINT to every item in it.
+-- <li></li>: We use the <li> inside both the Ordered and Unordered list.
+    
+    FOR EXAMPLE
+    <ol>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Pineapple</li>
+    </ol>
+
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Pineapple</li>
+    </ul>
+
+    ->ANCHOR TAG
+-- <a href=""><a>: This is very important for navigation and requires an href attribute which
+                    takes in the URL you want to redirect to.
+    
+    ->BUTTON
+-- <button></button>: It can also be used as link, or given a specific function by adding JAVASCRIPT
+
+    ->FORM TAG
+-- <form></form>: With this, your website users can login, create posts or even make payments
+                    We do that by wrapping the <form> tag aroung <input> elements.
+
+    <input>: It's a self closing tag, mostly used for receiving data from users.
+
+    ->IMAGE TAG
+-- <img src="">: It is used to load image on the browser. An <img> tag requires a src attribute which stand for "SOURCE" to function.
+                 The src="" attribute take in the URL of the image youwant to display on the browser
+    
+
+    ->ATTRIBUTES
+        Attributes are used to add properties or modify an html element. Attribute goes inside the name tag.
+        There are global attributes that can be added to an html element
+        -- class, represented by a dot(.) in CSS
+        -- id, represented by a hash(#) in CSS
+
+        Other attributes are elemnt specific. We will look into that in the practical session (VIDEO).
+
+    ->LANGUAGE TAGS
+    -- <style></style>: CSS is written in between this tag
+    -- <script></script>: JavaScript is written in between this tag
+
+    And ofcourse, the three(3) languages (HTML, CSS and JAVASCRIPT) can be written in a single html file. But to keep things organized,
+    It is always advisable to seperate them into their own dedicated file, then imported into the HTML file. 
+
+-->
